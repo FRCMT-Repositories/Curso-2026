@@ -41,7 +41,9 @@ O documento já se encontra previamente preenchido com uma sugestão de distribu
 
 Para utilizá-lo, basta alterar as informações do cabeçalho conforme a instituição, turma e docente responsável.
 
-> [!IMPORTANT]
+</div>
+
+> [!IMPORTANT] <div align="justify">
 >
 > Tanto o Plano de Ensino quanto a apresentação (`FRC UC1.pptx`) devem ser utilizados apenas como material de referência.
 >
