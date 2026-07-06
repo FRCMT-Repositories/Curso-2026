@@ -25,7 +25,9 @@ A apresentação contém:
 
 O arquivo foi desenvolvido para auxiliar o docente durante a condução das aulas e servir como ponto de partida para a construção do conhecimento.
 
-> [!TIP]
+
+</div>
+> [!TIP]<div align="justify">
 >
 > Recomenda-se que cada docente complemente os slides com exemplos práticos, experiências da equipe e demonstrações reais dos robôs, tornando as aulas mais dinâmicas e contextualizadas.
 
