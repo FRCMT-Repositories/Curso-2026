@@ -331,4 +331,249 @@ Repita o mesmo procedimento para a outra direção do chassi, garantindo que os 
 
 
 
+
+
+---
+
+## Etapa 8 — Determinando o Comprimento dos Tubos
+
+Antes de inserir os tubos estruturais na montagem, precisamos determinar o seu comprimento.
+
+Como os tubos serão fixados diretamente aos módulos de swerve, a medida utilizada será a distância entre os centros dos furos de fixação localizados nas extremidades dos módulos.
+
+Para obter essa dimensão, acesse:
+
+```txt
+Inspecionar → Medir
+```
+
+Com a ferramenta ativa, selecione os centros dos dois furos indicados na imagem.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+A distância encontrada é de **457,2 mm** entre os centros dos parafusos.
+
+Essa medida será utilizada como referência para determinar o comprimento final dos tubos do chassi.
+
+> [!TIP]
+>
+> Sempre utilize medidas entre centros quando o componente será parafusado. Isso garante que o modelo CAD represente corretamente a montagem física do robô.
+
+---
+
+## Etapa 9 — Preparando o Tubo Estrutural
+
+Agora vamos adaptar o modelo CAD do tubo estrutural para o comprimento necessário.
+
+Abra o arquivo do tubo através do menu:
+
+```txt
+Arquivo → Abrir
+```
+
+Selecione o modelo baixado anteriormente e abra-o para edição.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 10 — Criando o Esboço de Corte
+
+Com o tubo aberto, selecione:
+
+```txt
+Iniciar Esboço 2D
+```
+
+Em seguida, escolha a face indicada na imagem.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Utilizando a ferramenta **Retângulo**, desenhe um retângulo partindo da origem até a extremidade direita do tubo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 11 — Definindo as Dimensões
+
+Utilize a ferramenta **Cota** para adicionar uma distância de **5 mm** entre a linha superior do retângulo e o centro do primeiro furo do tubo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Em seguida, desenhe um segundo retângulo na extremidade superior do tubo.
+
+Agora adicione uma nova cota entre os dois retângulos.
+
+O valor deverá ser:
+
+```txt
+457,2 mm + 10 mm = 467,2 mm
+```
+
+Os **457,2 mm** correspondem à distância entre os centros dos parafusos.
+
+Os **10 mm adicionais** representam o afastamento entre o último furo e a extremidade do tubo, sendo **5 mm em cada lado**.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 12 — Realizando o Corte
+
+Retorne para a aba **Modelo 3D** e selecione a ferramenta **Extrusão**.
+
+Selecione os dois retângulos criados anteriormente e configure:
+
+- Operação: **Recortar**
+- Distância A: **25,4 mm**
+
+Esse valor corresponde à largura do tubo estrutural.
+
+Após confirmar a operação, o tubo será automaticamente ajustado ao comprimento desejado.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Salve o arquivo e feche a peça.
+
+---
+
+## Etapa 13 — Inserindo os Tubos na Montagem
+
+Retorne ao arquivo de montagem e insira os quatro tubos laterais do chassi.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 14 — Aplicando as Restrições
+
+Agora vamos posicionar corretamente cada tubo.
+
+Primeiro, restrinja o centro do furo do tubo ao centro do parafuso correspondente no módulo de swerve.
+
+Em seguida, restrinja a face superior do tubo à face inferior do módulo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Finalize restringindo o outro extremo do tubo ao segundo módulo de swerve.
+
+Repita exatamente o mesmo procedimento para os três tubos restantes.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Chassi Concluído
+
+Com todos os tubos devidamente posicionados e restringidos, a estrutura principal do chassi estará finalizada.
+
+A partir deste momento, o robô já possui sua base estrutural e está pronto para receber os primeiros subsistemas.
+
+Na próxima atividade iniciaremos o desenvolvimento do **Intake**, mecanismo responsável pela coleta e manipulação das *Game Pieces* durante a partida.
+
+> [!NOTE]
+>
+> Embora este tutorial utilize um chassi equipado com módulos **MK4i**, o procedimento apresentado é aplicável a qualquer configuração estrutural. Alteram-se apenas as dimensões do chassi, o modelo dos módulos de locomoção e os componentes comerciais utilizados, mantendo-se a mesma metodologia de montagem.
+
 </div>
