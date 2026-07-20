@@ -331,7 +331,7 @@ Repita o mesmo procedimento para a outra direção do chassi, garantindo que os 
 
 ---
 
-## Etapa 8 — Determinando o Comprimento dos Tubos
+### Etapa 8 — Determinando o Comprimento dos Tubos
 
 Antes de inserir os tubos estruturais na montagem, precisamos determinar o seu comprimento.
 
@@ -367,7 +367,7 @@ Essa medida será utilizada como referência para determinar o comprimento final
 
 ---
 
-## Etapa 9 — Preparando o Tubo Estrutural
+### Etapa 9 — Preparando o Tubo Estrutural
 
 Agora vamos adaptar o modelo CAD do tubo estrutural para o comprimento necessário.
 
@@ -393,7 +393,7 @@ Selecione o modelo baixado anteriormente e abra-o para edição.
 
 ---
 
-## Etapa 10 — Criando o Esboço de Corte
+### Etapa 10 — Criando o Esboço de Corte
 
 Com o tubo aberto, selecione:
 
@@ -431,7 +431,7 @@ Utilizando a ferramenta **Retângulo**, desenhe um retângulo partindo da origem
 
 ---
 
-## Etapa 11 — Definindo as Dimensões
+### Etapa 11 — Definindo as Dimensões
 
 Utilize a ferramenta **Cota** para adicionar uma distância de **5 mm** entre a linha superior do retângulo e o centro do primeiro furo do tubo.
 
@@ -487,7 +487,7 @@ Os **10 mm adicionais** representam o afastamento entre o último furo e a extre
 
 ---
 
-## Etapa 12 — Realizando o Corte
+### Etapa 12 — Realizando o Corte
 
 Retorne para a aba **Modelo 3D** e selecione a ferramenta **Extrusão**.
 
@@ -528,7 +528,7 @@ Salve o arquivo e feche a peça.
 
 ---
 
-## Etapa 13 — Inserindo os Tubos na Montagem
+### Etapa 13 — Inserindo os Tubos na Montagem
 
 Retorne ao arquivo de montagem e insira os quatro tubos laterais do chassi.
 
@@ -546,7 +546,7 @@ Retorne ao arquivo de montagem e insira os quatro tubos laterais do chassi.
 
 ---
 
-## Etapa 14 — Aplicando as Restrições
+### Etapa 14 — Aplicando as Restrições
 
 Agora vamos posicionar corretamente cada tubo.
 
@@ -729,7 +729,7 @@ Ao final desta etapa, sua montagem deverá apresentar uma configuração semelha
 
 ---
 
-## Etapa 15 — Desenvolvendo as Chapas Laterais do Intake
+### Etapa 15 — Desenvolvendo as Chapas Laterais do Intake
 
 Com os principais componentes comerciais já inseridos na montagem, o próximo passo consiste em desenvolver a estrutura responsável por sustentar todo o mecanismo do intake.
 
@@ -817,7 +817,7 @@ Neste momento, as chapas servirão apenas como referência para o posicionamento
 
 ---
 
-## Etapa 18 — Posicionando o Motor de Articulação
+### Etapa 18 — Posicionando o Motor de Articulação
 
 O próximo componente a ser instalado será o motor responsável pela abertura e fechamento do intake.
 
@@ -859,7 +859,7 @@ Em seguida, aplique as demais restrições indicadas nas imagens abaixo até que
 
 ---
 
-## Etapa 19 — Instalando os Rolamentos
+### Etapa 19 — Instalando os Rolamentos
 
 Com o motor posicionado, instale os blocos de rolamento responsáveis por sustentar o eixo MAXSpline.
 
@@ -919,7 +919,7 @@ Posicionamento do segundo rolamento
 
 ---
 
-## Etapa 20 — Instalando o Eixo MAXSpline
+### Etapa 20 — Instalando o Eixo MAXSpline
 
 Com ambos os rolamentos posicionados, insira o eixo MAXSpline.
 
@@ -951,7 +951,7 @@ Nesta etapa, o objetivo é apenas validar o alinhamento entre:
 
 ---
 
-## Etapa 21 — Adaptando as Chapas
+### Etapa 21 — Adaptando as Chapas
 
 Com todos os componentes posicionados, podemos iniciar a usinagem das chapas laterais.
 
