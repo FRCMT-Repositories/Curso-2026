@@ -991,8 +991,8 @@ Para garantir total precisão entre as peças, utilize a ferramenta **Projetar G
 
 <tr>
 
-<td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img18.png" width="600">
+<td align="center" width="350">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img18.png" width="350">
 </td>
 
 </tr>
@@ -1318,6 +1318,228 @@ Posicione os dois componentes conforme ilustrado abaixo, garantindo que permane�
 >
 > Isso significa que o eixo do intake terá maior torque e menor velocidade em comparação com o eixo de entrada do motor. Essa relação ainda deve ser analisada em conjunto com a redução existente no MAXPlanetary.
 
+---
+
+## Etapa 32 — Representando o Eixo do Motor
+
+Crie a representação do eixo de saída do motor e do rolamento utilizado no eixo sextavado.
+
+Esses componentes servirão como referência para validar o alinhamento do sistema de transmissão e garantir que a coroa, o pinhão e o eixo permaneçam corretamente posicionados dentro do conjunto.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img38.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 33 — Montando o Conjunto de Transmissão
+
+Insira os componentes criados na montagem e aplique as restrições necessárias para posicioná-los corretamente.
+
+Durante essa etapa, verifique se:
+
+- o eixo do motor permanece alinhado ao pinhão;
+- o rolamento está concêntrico ao eixo sextavado;
+- as coroas permanecem paralelas;
+- não existem interferências entre as peças.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img39.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img40.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img41.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img42.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img43.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!TIP] <div align="justify">
+>
+> Sempre valide o alinhamento dos eixos antes de prosseguir. Pequenos desalinhamentos no CAD podem resultar em montagem forçada, desgaste prematuro de rolamentos, perda de eficiência e problemas na transmissão.
+
+---
+
+## Etapa 34 — Criando as Chapas do Lado Oposto
+
+Com o primeiro lado do intake definido, criaremos agora as chapas de apoio do lado oposto do mecanismo.
+
+Utilize como base as chapas desenvolvidas anteriormente. Crie uma cópia de cada arquivo e insira essas novas peças na montagem.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img44.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 35 — Adaptando as Chapas do Segundo Lado
+
+Como o conjunto de acionamento será instalado em apenas um lado do intake, as chapas do lado oposto não precisam dos alojamentos destinados ao motor e ao rolamento do eixo de saída.
+
+Edite as cópias criadas anteriormente e remova:
+
+- a furação do motor;
+- o alojamento do rolamento;
+- recortes associados exclusivamente ao acionamento.
+
+Mantenha apenas as geometrias necessárias para:
+
+- sustentação estrutural;
+- apoio do eixo MAXSpline;
+- fixação do intake ao chassi;
+- alinhamento entre as laterais do mecanismo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img45.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!IMPORTANT] <div align="justify">
+>
+> Evite reutilizar exatamente o mesmo arquivo da chapa original. Crie cópias independentes antes de remover as furações, pois alterações realizadas no mesmo arquivo podem ser refletidas em todas as instâncias já inseridas na montagem.
+
+---
+
+## Etapa 36 — Posicionando as Chapas no Chassi
+
+Insira as chapas adaptadas no lado oposto do intake e aplique as restrições necessárias para fixá-las ao chassi.
+
+Durante o posicionamento, garanta que as chapas permaneçam:
+
+- paralelas às chapas do primeiro lado;
+- alinhadas aos furos dos tubos estruturais;
+- simétricas em relação ao centro do mecanismo;
+- corretamente posicionadas em relação ao eixo MAXSpline.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img45.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img46.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img47.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img48.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img49.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img50.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img51.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img52.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Após a conclusão desta etapa, os dois lados do intake deverão apresentar a mesma referência estrutural, diferenciando-se apenas pela presença do sistema de acionamento em uma das laterais.
 
 
 
