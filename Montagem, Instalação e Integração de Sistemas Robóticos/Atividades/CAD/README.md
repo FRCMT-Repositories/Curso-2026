@@ -1,23 +1,59 @@
 <div align="justify">
 
-Para montarmos o chassi do robô primeiro temos que definir algumas coisas importantes:
-•	Sistema de locomoção do robô, Swerve ou Tank.
-•	Os tubos que iram ser utilizados no chassi. 
-•	Dimensão desejada do chassi. 
-Nós exemplos abaixo serão utilizados os seguintes parâmetros:
-•	Módulo de swerve MK4I.
-•	Tubos linha forja perfurados nas 4 faces 2x1”.
-•	Dimensão do chassi 685,8 X 685,8mm.
-Agora com todas as informações vamos começar a fazer o CAD do chassi do robô, o software utilizado será o AUTODESK INVENTOR.
-•	Primeiro passo será baixar todos os componentes necessários para a montagem, nesse caso os tubos forja e a swerve.
-OBS: Itens comerciais a maioria deles você já encontra o CAD pronto, não sendo necessário fazer a modelagem daquele item. 
+# Construção do Chassi
 
+Antes de iniciar a modelagem do chassi no software CAD, é importante definir alguns parâmetros do projeto. Essas decisões influenciarão diretamente as dimensões do robô, a posição dos componentes e o processo de fabricação.
 
+Neste exemplo será desenvolvido um chassi utilizando módulos swerve, porém o procedimento pode ser adaptado para outras configurações, como robôs com tração Tank.
 
-Para baixar o modelo MK4i(https://www.dropbox.com/s/tp9sqh3bqfvl2w5/SDS%20MK4i%20Swerve%20Module%2C%20NEOs.STEP?dl=1)
-Para baixar o tubo forja 2x1 polegadas(https://drive.google.com/file/d/1UcgZVlp9a8qg29x84kIeoxbYTjqd8tvp/view)
+---
 
-•	Próximo passo será abrir o AUTODESK INVENTOR para começarmos a fazermos o CAD.
+## Definições Iniciais
+
+Antes de iniciar o projeto, defina:
+
+- Sistema de locomoção do robô (`Swerve` ou `Tank`);
+- Perfil estrutural que será utilizado no chassi;
+- Dimensões desejadas para o robô.
+
+Neste exemplo serão utilizados os seguintes parâmetros:
+
+| Componente | Especificação |
+|------------|---------------|
+| Sistema de locomoção | Módulo Swerve MK4i |
+| Estrutura | Tubo Linha Forja 2" × 1" perfurado nas quatro faces |
+| Dimensões do chassi | **685,8 × 685,8 mm** |
+
+Com essas definições estabelecidas, podemos iniciar a construção do modelo CAD do chassi utilizando o **Autodesk Inventor**.
+
+---
+
+## Download dos Componentes Comerciais
+
+O primeiro passo consiste em obter os modelos CAD dos componentes comerciais que serão utilizados no projeto.
+
+Na maioria dos casos, fabricantes de componentes para FRC disponibilizam gratuitamente seus modelos em formato CAD, eliminando a necessidade de modelar essas peças manualmente.
+
+Neste exemplo serão utilizados:
+
+- Módulo **SDS MK4i Swerve**
+- Tubo estrutural **Linha Forja 2" × 1"**
+
+### Downloads
+
+- [Download do módulo SDS MK4i](https://www.dropbox.com/s/tp9sqh3bqfvl2w5/SDS%20MK4i%20Swerve%20Module%2C%20NEOs.STEP?dl=1)
+
+- [Download do tubo Linha Forja 2" × 1"](https://drive.google.com/file/d/1UcgZVlp9a8qg29x84kIeoxbYTjqd8tvp/view)
+
+> [!TIP]
+>
+> Sempre que possível, utilize os modelos CAD oficiais disponibilizados pelos fabricantes. Isso garante maior precisão dimensional, reduz o tempo de desenvolvimento e evita erros durante a montagem do robô.
+
+---
+
+## Abrindo o Autodesk Inventor
+
+Após realizar o download dos componentes, abra o **Autodesk Inventor**, software que será utilizado para desenvolver toda a estrutura do robô.
 
 <table align="center">
 
@@ -28,6 +64,9 @@ Para baixar o tubo forja 2x1 polegadas(https://drive.google.com/file/d/1UcgZVlp9
 </td>
 
 </tr>
+
 </table>
+
+A partir deste ponto, iniciaremos a criação da estrutura do chassi, importando os componentes comerciais e definindo as restrições necessárias para a montagem do conjunto.
 
 </div>
