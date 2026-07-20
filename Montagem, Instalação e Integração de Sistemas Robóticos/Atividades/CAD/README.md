@@ -71,4 +71,165 @@ Após realizar o download dos componentes, abra o **Autodesk Inventor**, softwar
 
 A partir deste ponto, iniciaremos a criação da estrutura do chassi, importando os componentes comerciais e definindo as restrições necessárias para a montagem do conjunto.
 
+---
+
+## Criando a Montagem
+
+Com o Autodesk Inventor aberto, vamos criar o ambiente onde todos os componentes do robô serão montados.
+
+### Passo 1 — Criando um Novo Arquivo de Montagem
+
+No menu inicial do Autodesk Inventor, selecione:
+
+```txt
+Novo → Montagem → Standard (mm).iam
+```
+
+Em seguida, clique em **Criar**.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/LOGO__AUTODESK.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+### Passo 2 — Inserindo os Componentes
+
+Com o ambiente de montagem criado, clique na opção **Inserir**, localizada na parte superior esquerda da tela.
+
+Será aberta uma janela para seleção de arquivos. Localize a pasta onde foram salvos os modelos CAD do módulo **SDS MK4i** e selecione o arquivo correspondente.
+
+Após localizar o componente, clique em **Abrir** para inseri-lo na montagem.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/LOGO__AUTODESK.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+### Passo 3 — Posicionando os Módulos
+
+Insira quatro módulos de swerve na montagem, representando cada uma das rodas do robô.
+
+Após inserir os componentes, selecione um dos módulos, clique com o botão direito do mouse e escolha a opção **Fixar**.
+
+Esse procedimento define o módulo como referência da montagem, impedindo que ele seja movimentado acidentalmente durante a aplicação das restrições.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/LOGO__AUTODESK.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!TIP] <div align="justify">
+>
+> Sempre fixe apenas um componente principal da montagem. Ele servirá como referência para posicionar todos os demais elementos do robô.
+
+---
+
+### Passo 4 — Aplicando Restrições
+
+Para posicionar corretamente os módulos, acesse:
+
+```txt
+Montagem → Restringir
+```
+
+A ferramenta **Restringir** é responsável por definir a relação geométrica entre dois componentes, garantindo que permaneçam corretamente posicionados durante toda a montagem.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/LOGO__AUTODESK.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+### Passo 5 — Selecionando as Faces
+
+Com a ferramenta ativa:
+
+1. Selecione a face do módulo que foi fixado anteriormente;
+2. Em seguida, selecione a face correspondente do segundo módulo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/LOGO__AUTODESK.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Depois de selecionar ambas as faces, altere a opção **Solução** para o **segundo modo disponível** e clique em **OK**.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/LOGO__AUTODESK.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+### Resultado Esperado
+
+Após aplicar corretamente as restrições, os módulos deverão permanecer alinhados conforme ilustrado na imagem abaixo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/LOGO__AUTODESK.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!IMPORTANT] <div align="justify">
+>
+> Não se preocupe com o posicionamento exato dos módulos neste momento. O objetivo desta etapa é apenas estabelecer as primeiras referências da montagem. As dimensões finais do chassi serão definidas nas próximas etapas, quando os tubos estruturais forem inseridos e restringidos.
+
 </div>
