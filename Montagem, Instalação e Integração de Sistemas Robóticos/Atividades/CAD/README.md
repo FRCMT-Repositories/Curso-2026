@@ -1035,5 +1035,290 @@ Continue o desenvolvimento do esboço conforme ilustrado nas figuras seguintes.
 
 </table>
 
+Utilize o comando de `APAGAR` para remover as linhas desnecessárias.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img22.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 22 — Ajustando os Furos da Chapa Interna
+
+Com as geometrias do motor e do rolamento já projetadas sobre a chapa, aumente ligeiramente o diâmetro dos furos correspondentes ao eixo do motor e ao tubo MAXSpline.
+
+Esse ajuste é importante para criar uma folga de montagem adequada, evitando interferências entre os componentes e facilitando a fabricação e a instalação das peças no robô real.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img23.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!IMPORTANT] <div align="justify">
+>
+> A folga adicionada aos furos deve ser suficiente apenas para permitir a montagem e compensar pequenas variações de fabricação. Evite aumentar excessivamente os diâmetros, pois isso pode reduzir a precisão do posicionamento e comprometer a rigidez do conjunto.
+
+---
+
+## Etapa 23 — Chapa de Sustenção Interna
+
+Após concluir os ajustes do esboço, utilize a ferramenta **Extrusão** para criar a chapa responsavel por segurar o motor e o tubo MAXSpline.
+
+Para este exemplo, estamos considerando um material na espessura de `5 mm`
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img24.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 24 — Aplicando Raios de Acabamento
+
+Após realizar os recortes, aplique um raio de `5 mm` na aresta interna gerada e nas demais quinas vivas da peça.
+
+A utilização de raios reduz a concentração de tensões, diminui a possibilidade de trincas e pontos de ruptura e torna o componente mais seguro durante a fabricação, montagem e manutenção do robô.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img25.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+ </div>
+
+> [!TIP]  <div align="justify">
+>
+> Evite manter cantos internos perfeitamente retos em regiões submetidas a esforço. Sempre que o processo de fabricação permitir, utilize raios para melhorar a distribuição das tensões no material.
+
+---
+
+## Etapa 25 — Editando a Chapa Externa
+
+Com a chapa interna concluída, dê início à edição da chapa externa do intake.
+
+Crie o esboço conforme a geometria apresentada abaixo e realize a extrusão mantendo a mesma espessura de `5 mm`.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img26.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 26 — Projetando as Geometrias dos Componentes
+
+Crie um novo esboço sobre a face da chapa externa e utilize novamente a ferramenta **Projetar Geometria**.
+
+Projete as referências relacionadas ao eixo do motor, ao tubo MAXSpline, aos rolamentos e aos demais elementos necessários para o posicionamento correto dos furos e recortes.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img27.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 27 — Ajustando os Furos da Chapa Externa
+
+Assim como realizado na chapa interna, aumente ligeiramente o diâmetro dos furos correspondentes ao eixo do motor e ao tubo MAXSpline.
+
+Esse ajuste garante a folga necessária para a montagem e reduz o risco de interferência entre as peças.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img28.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 28 — Completando o Esboço
+
+Adicione as demais geometrias necessárias para definir o formato final da chapa externa.
+
+Utilize cotas, restrições geométricas e referências projetadas para manter o esboço totalmente definido e coerente com a posição dos componentes da montagem.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img29.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 29 — Limpando e Recortando o Esboço
+
+Remova todas as linhas auxiliares ou segmentos que não fazem parte do contorno final da peça.
+
+Antes de executar a extrusão, verifique se os perfis desejados estão completamente fechados. Em seguida, utilize a ferramenta **Extrusão** no modo **Recortar** para concluir os furos e alojamentos da chapa externa.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img30.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 30 — Finalizando a Chapa Externa
+
+Aplique raios nas quinas e arestas vivas da chapa externa, seguindo o mesmo padrão utilizado na chapa interna.
+
+Além de melhorar o acabamento, esse procedimento reduz pontos de concentração de tensão e facilita a fabricação e o manuseio da peça.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img31.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 31 — Posicionando as Coroas da Transmissão
+
+Com as chapas laterais concluídas, iniciaremos a montagem do sistema de transmissão responsável pela movimentação do intake.
+
+Nesta etapa serão utilizados:
+
+- Coroa usinada `#25 MAXSpline` de `40 dentes`;
+- Pinhão `#25` de `14 dentes`, com hub simétrico para eixo hexagonal de `0,5"`.
+
+Posicione os dois componentes conforme ilustrado abaixo, garantindo que permaneçam alinhados ao eixo de articulação e ao eixo de saída do motor.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img32.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img33.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img34.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img35.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img36.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img37.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!NOTE] <div align="justify">
+>
+> A relação entre a coroa de `40 dentes` e o pinhão de `14 dentes` produz uma redução aproximada de:
+>
+> ```txt
+> 40 ÷ 14 ≈ 2,86:1
+> ```
+>
+> Isso significa que o eixo do intake terá maior torque e menor velocidade em comparação com o eixo de entrada do motor. Essa relação ainda deve ser analisada em conjunto com a redução existente no MAXPlanetary.
+
+
+
 
 </div>
