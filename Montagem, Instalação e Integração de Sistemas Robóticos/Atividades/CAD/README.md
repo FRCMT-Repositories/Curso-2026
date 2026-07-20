@@ -1884,8 +1884,8 @@ Esses componentes serão responsáveis por conectar os tubos estruturais ao rest
 
 <tr>
 
-<td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img75.png" width="600">
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img75.png" width="400">
 </td>
 
 </tr>
@@ -1918,8 +1918,8 @@ Em seguida, realize a extrusão da peça mantendo a espessura padrão adotada no
 
 <tr>
 
-<td align="center" width="450">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img77.png" width="450">
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img77.png" width="600">
 </td>
 
 </tr>
