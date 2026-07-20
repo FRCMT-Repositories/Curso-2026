@@ -1625,11 +1625,132 @@ A correta instalação desses componentes é fundamental para garantir que o eix
 
 </table>
 
+---
 
+## Etapa 38 — Ajustando o Comprimento do Eixo MAXSpline
 
+Com todos os componentes posicionados, é possível determinar o comprimento final do eixo MAXSpline.
 
+Neste momento, observe que o eixo ainda ultrapassa o perímetro do robô. Para adequá-lo ao projeto, edite a peça e remova o material excedente, deixando o eixo com **695,8 mm** de comprimento.
 
+<table align="center">
 
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img62.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!TIP] <div align="justify">
+>
+> Sempre defina o comprimento final dos eixos após posicionar todos os componentes da transmissão. Dessa forma, evita-se retrabalho caso ocorram alterações no projeto durante o desenvolvimento do mecanismo.
+
+---
+
+## Etapa 39 — Criando a Chapa Lateral do Intake
+
+O próximo passo consiste em desenvolver a chapa lateral responsável por sustentar a extremidade do mecanismo de coleta.
+
+Crie uma nova peça (`Standard (mm).ipt`) e desenvolva o esboço conforme ilustrado na imagem abaixo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="450">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img63.png" width="450">
+</td>
+
+</tr>
+
+</table>
+
+Após concluir o esboço, realize uma **Extrusão** de **5 mm**, mantendo o mesmo padrão utilizado nas demais chapas do projeto.
+
+Salve o arquivo e retorne à montagem principal.
+
+---
+
+## Etapa 40 — Posicionando a Chapa Lateral
+
+Insira a chapa recém-criada na montagem e aplique as restrições necessárias para posicioná-la conforme ilustrado na figura abaixo.
+
+Verifique se a peça permanece:
+
+- alinhada às chapas estruturais do intake;
+- paralela ao eixo MAXSpline;
+- corretamente posicionada em relação ao chassi;
+- sem interferências com os demais componentes.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img64.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img65.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 41 — Utilizando a Ferramenta de Visibilidade
+
+À medida que a montagem evolui, a quantidade de componentes aumenta significativamente, tornando algumas operações de edição mais difíceis.
+
+Para facilitar o trabalho, o Autodesk Inventor permite ocultar temporariamente componentes sem removê-los da montagem.
+
+Para isso, clique com o **botão direito do mouse** sobre a peça desejada e selecione a opção **Visibilidade**.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img66.png" width="400">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img67.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img68.png" width="400">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!NOTE] <div align="justify">
+>
+> Ocultar componentes não altera a montagem nem remove restrições aplicadas às peças. Esse recurso serve apenas para facilitar a visualização e o acesso às regiões internas do mecanismo durante a modelagem e edição.
 
 
 </div>
