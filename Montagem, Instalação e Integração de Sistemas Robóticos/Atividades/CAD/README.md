@@ -923,12 +923,6 @@ Posicionamento do segundo rolamento
 
 Com ambos os rolamentos posicionados, insira o eixo MAXSpline.
 
-Nesta etapa, o objetivo é apenas validar o alinhamento entre:
-
-- redutor;
-- rolamentos;
-- eixo principal.
-
 <table align="center">
 
 <tr>
@@ -948,6 +942,12 @@ Nesta etapa, o objetivo é apenas validar o alinhamento entre:
 </tr>
 
 </table>
+
+Nesta etapa, o objetivo é apenas validar o alinhamento entre:
+
+- redutor;
+- rolamentos;
+- eixo principal.
 
 ---
 
