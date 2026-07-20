@@ -329,10 +329,6 @@ Repita o mesmo procedimento para a outra direção do chassi, garantindo que os 
 >
 > Antes de prosseguir para a montagem da estrutura, confira se todas as restrições foram aplicadas corretamente. Movimente levemente os módulos para verificar se permanecem posicionados conforme esperado. Detectar problemas nesta etapa evita retrabalho durante a inserção dos tubos estruturais.
 
-
-
-
-
 ---
 
 ## Etapa 8 — Determinando o Comprimento dos Tubos
@@ -354,7 +350,7 @@ Com a ferramenta ativa, selecione os centros dos dois furos indicados na imagem.
 <tr>
 
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img14.png" width="600">
 </td>
 
 </tr>
@@ -381,19 +377,19 @@ Abra o arquivo do tubo através do menu:
 Arquivo → Abrir
 ```
 
-Selecione o modelo baixado anteriormente e abra-o para edição.
-
 <table align="center">
 
 <tr>
 
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img15.png" width="600">
 </td>
 
 </tr>
 
 </table>
+
+Selecione o modelo baixado anteriormente e abra-o para edição.
 
 ---
 
@@ -412,7 +408,7 @@ Em seguida, escolha a face indicada na imagem.
 <tr>
 
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img16.png" width="600">
 </td>
 
 </tr>
@@ -426,7 +422,7 @@ Utilizando a ferramenta **Retângulo**, desenhe um retângulo partindo da origem
 <tr>
 
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img17.png" width="600">
 </td>
 
 </tr>
@@ -444,7 +440,7 @@ Utilize a ferramenta **Cota** para adicionar uma distância de **5 mm** entre a 
 <tr>
 
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img18.png" width="600">
 </td>
 
 </tr>
@@ -452,6 +448,18 @@ Utilize a ferramenta **Cota** para adicionar uma distância de **5 mm** entre a 
 </table>
 
 Em seguida, desenhe um segundo retângulo na extremidade superior do tubo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img19.png" width="600">
+</td>
+
+</tr>
+
+</table>
 
 Agora adicione uma nova cota entre os dois retângulos.
 
@@ -470,7 +478,7 @@ Os **10 mm adicionais** representam o afastamento entre o último furo e a extre
 <tr>
 
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img20.png" width="600">
 </td>
 
 </tr>
@@ -483,26 +491,38 @@ Os **10 mm adicionais** representam o afastamento entre o último furo e a extre
 
 Retorne para a aba **Modelo 3D** e selecione a ferramenta **Extrusão**.
 
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img21.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
 Selecione os dois retângulos criados anteriormente e configure:
 
 - Operação: **Recortar**
 - Distância A: **25,4 mm**
-
-Esse valor corresponde à largura do tubo estrutural.
-
-Após confirmar a operação, o tubo será automaticamente ajustado ao comprimento desejado.
 
 <table align="center">
 
 <tr>
 
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img22.png" width="600">
 </td>
 
 </tr>
 
 </table>
+
+Esse valor corresponde à largura do tubo estrutural.
+
+Após confirmar a operação, o tubo será automaticamente ajustado ao comprimento desejado.
 
 Salve o arquivo e feche a peça.
 
@@ -517,7 +537,7 @@ Retorne ao arquivo de montagem e insira os quatro tubos laterais do chassi.
 <tr>
 
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img23.png" width="600">
 </td>
 
 </tr>
@@ -532,6 +552,18 @@ Agora vamos posicionar corretamente cada tubo.
 
 Primeiro, restrinja o centro do furo do tubo ao centro do parafuso correspondente no módulo de swerve.
 
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img24.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
 Em seguida, restrinja a face superior do tubo à face inferior do módulo.
 
 <table align="center">
@@ -539,7 +571,7 @@ Em seguida, restrinja a face superior do tubo à face inferior do módulo.
 <tr>
 
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img25.png" width="600">
 </td>
 
 </tr>
@@ -548,6 +580,18 @@ Em seguida, restrinja a face superior do tubo à face inferior do módulo.
 
 Finalize restringindo o outro extremo do tubo ao segundo módulo de swerve.
 
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img26.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
 Repita exatamente o mesmo procedimento para os três tubos restantes.
 
 <table align="center">
@@ -555,7 +599,7 @@ Repita exatamente o mesmo procedimento para os três tubos restantes.
 <tr>
 
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img13.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img27.png" width="600">
 </td>
 
 </tr>
