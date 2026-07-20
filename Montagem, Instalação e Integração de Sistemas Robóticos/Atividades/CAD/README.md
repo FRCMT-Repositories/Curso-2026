@@ -665,9 +665,7 @@ Antes de iniciar a modelagem, faça o download dos componentes comerciais que se
 
 ### Estrutura
 
-- **Acoplador para Tubo 2" × 1"**
-
-https://cdn.andymark.com/media/W1siZiIsIjIwMjMvMDUvMzEvMTEvMTUvNDQvZmZlYmUxMmItMDBkMi00Y2Y1LWFmZDQtZTlkNjMwOWQ4Zjg1L2FtLTQ3NjIgVHViZSBQbHVnIGZvciAyeDF4LjEyNS5TVEVQIl1d/am-4762%20Tube%20Plug%20for%202x1x.125.STEP?sha=92282de41545b7d6
+- [**Acoplador para Tubo 2" × 1"**](https://cdn.andymark.com/media/W1siZiIsIjIwMjMvMDUvMzEvMTEvMTUvNDQvZmZlYmUxMmItMDBkMi00Y2Y1LWFmZDQtZTlkNjMwOWQ4Zjg1L2FtLTQ3NjIgVHViZSBQbHVnIGZvciAyeDF4LjEyNS5TVEVQIl1d/am-4762%20Tube%20Plug%20for%202x1x.125.STEP?sha=92282de41545b7d6)
 
 ---
 
