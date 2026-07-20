@@ -2193,7 +2193,7 @@ Na árvore de componentes, localize os itens exibidos com o ícone transparente.
 
 ---
 
-## Etapa 56 — Criando a Chapa Lateral Oposta
+### Etapa 56 — Criando a Chapa Lateral Oposta
 
 O próximo passo consiste em criar a chapa lateral correspondente ao outro lado do intake.
 
@@ -2254,7 +2254,7 @@ Durante o posicionamento, verifique se a nova chapa permanece:
 
 ---
 
-## Etapa 57 — Instalando o Segundo Motor Kraken X60
+### Etapa 57 — Instalando o Segundo Motor Kraken X60
 
 Com a segunda chapa posicionada, copie o motor **Kraken X60** já inserido anteriormente e monte-o na nova lateral do intake.
 
@@ -2293,6 +2293,193 @@ Aplique as restrições necessárias para alinhar o eixo do motor ao mecanismo c
 > [!IMPORTANT] <div align="justify">
 >
 > Antes de concluir esta etapa, confirme se os dois motores estão corretamente alinhados e se nenhum deles interfere com o chassi, as chapas laterais, os eixos ou os demais componentes do intake.
+
+---
+
+### Etapa 58 — Instalando os Adaptadores SplineXS para Hexagonal de 0,5"
+
+Insira na montagem os adaptadores **SplineXS para eixo hexagonal de 0,5"**, responsáveis por realizar a interface mecânica entre os eixos dos motores Kraken X60 e os componentes de transmissão do intake.
+
+Posicione cada adaptador no respectivo motor e aplique as restrições necessárias para mantê-lo concêntrico ao eixo de saída.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img100.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img101.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!IMPORTANT] <div align="justify">
+>
+> Antes de prosseguir, confirme se o adaptador está corretamente encaixado e alinhado ao eixo do motor. Qualquer desalinhamento poderá comprometer a transmissão de torque e causar desgaste prematuro dos componentes.
+
+---
+
+### Etapa 59 — Criando a Polia do Eixo do Kraken X60
+
+O próximo passo consiste em desenvolver a polia que será montada na extremidade do eixo acionado pelo Kraken X60.
+
+Crie uma nova peça e modele a geometria da polia conforme ilustrado nas imagens abaixo.
+
+Durante o desenvolvimento, verifique:
+
+- o diâmetro externo da polia;
+- o encaixe para o eixo hexagonal;
+- a largura necessária para o elemento de transmissão;
+- o alinhamento com os demais componentes do sistema.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img102.png" width="400">
+</td>
+
+</tr>
+
+</table>
+
+Após concluir a modelagem, insira a polia na montagem e aplique as restrições necessárias para posicioná-la corretamente sobre o eixo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img103.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img104.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+### Etapa 60 — Criando o Reforço Estrutural do Intake
+
+Com as chapas laterais posicionadas, meça a distância interna entre elas.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img105.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Essa dimensão será utilizada para definir o comprimento do tubo estrutural **Linha Forja 2" × 1"**, responsável por aumentar a rigidez do conjunto e reduzir deformações durante os impactos e esforços de coleta.
+
+Crie ou edite o modelo do tubo com o comprimento obtido na medição e insira-o na montagem.
+
+---
+
+### Etapa 61 — Instalando os Acopladores de Tubo
+
+Insira também os **acopladores para tubo 2" × 1"** nas extremidades do reforço estrutural.
+
+Esses componentes serão responsáveis por conectar o tubo às chapas laterais e garantir uma fixação mais rígida e confiável.
+
+Aplique as restrições necessárias para alinhar:
+
+- os acopladores às extremidades do tubo;
+- os furos dos acopladores às furações das chapas;
+- o tubo ao plano central do mecanismo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img106.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img107.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img108.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img109.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img110.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img111.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img112.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!NOTE] <div align="justify">
+>
+> O tubo estrutural não atua apenas como espaçador entre as chapas. Ele também contribui para a rigidez torcional do intake, reduzindo flexões e desalinhamentos durante a coleta das FUEL.
+
+
 
 
 </div>
