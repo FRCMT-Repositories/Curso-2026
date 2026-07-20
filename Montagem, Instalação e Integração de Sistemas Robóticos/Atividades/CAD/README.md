@@ -1989,7 +1989,174 @@ Essa interferência é proposital e necessária para gerar pressão suficiente e
 >
 > Um bom intake não depende apenas da velocidade dos motores. O posicionamento dos roletes, o grau de interferência com a Game Piece e a trajetória criada ao longo do mecanismo são fatores que influenciam diretamente a eficiência da coleta. Durante o desenvolvimento do CAD, procure sempre visualizar como a peça do jogo percorrerá todo o caminho até o interior do robô.
 
+---
 
+### Etapa 49 — Criando as Furações de Fixação da Coroa
+
+Com a posição da coroa definida, o próximo passo consiste em projetar sobre a chapa as furações necessárias para fixar a **coroa usinada #25 MAXSpline de 40 dentes**.
+
+Utilize a ferramenta **Projetar Geometria** para transferir os centros dos furos da coroa para o esboço da chapa.
+
+Esse procedimento garante que a furação permaneça perfeitamente alinhada ao componente e reduz o risco de erros dimensionais durante a fabricação.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img81.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+### Etapa 50 — Recortando as Furações
+
+Após concluir o esboço, utilize a ferramenta **Extrusão** no modo **Recortar** para criar os furos de fixação da coroa.
+
+Garanta que o corte atravesse completamente a espessura da chapa.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img82.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 51 — Inserindo o Motor Kraken X60
+
+Retorne ao ambiente de montagem e insira o modelo CAD do **Kraken X60**.
+
+Posicione o motor conforme ilustrado nas imagens abaixo, aplicando as restrições necessárias para alinhá-lo corretamente ao sistema de transmissão do intake.
+
+Durante o posicionamento, verifique se:
+
+- o eixo do motor está alinhado ao componente acionado;
+- o corpo do motor não interfere nas chapas ou no chassi;
+- existe espaço suficiente para a instalação elétrica;
+- o conjunto permanece acessível para manutenção.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img83.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img84.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img85.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 52 — Criando a Furação do Motor
+
+Com o motor corretamente posicionado, edite novamente a chapa lateral e projete as geometrias necessárias para a sua fixação.
+
+Utilize como referência os furos do próprio modelo CAD do Kraken X60, evitando medições manuais desnecessárias.
+
+Após concluir o esboço, realize os recortes correspondentes.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img86.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!TIP] <div align="justify">
+>
+> Sempre utilize os modelos CAD oficiais dos fabricantes como referência para furações de montagem. Isso reduz erros de posicionamento e melhora a compatibilidade entre a peça projetada e o componente real.
+
+---
+
+## Etapa 53 — Criando o Fim de Curso Mecânico
+
+O próximo passo consiste em adicionar um **fim de curso mecânico** para limitar o movimento de descida do intake.
+
+Esse recurso impedirá que o mecanismo avance além do necessário, utilizando o próprio chassi como superfície de contato.
+
+Crie a geometria conforme ilustrado abaixo, garantindo que o contato aconteça antes que qualquer outro componente do intake encoste no chão, no bumper ou na estrutura do robô.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img87.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img88.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!IMPORTANT] <div align="justify">
+>
+> O fim de curso mecânico não substitui sensores ou limites definidos na programação, mas funciona como uma proteção física adicional contra movimentos excessivos e possíveis danos ao mecanismo.
+
+---
+
+## Etapa 54 — Aplicando Raios de Acabamento
+
+Para concluir esta etapa, aplique raios nas arestas vivas da peça.
+
+A utilização de raios melhora a distribuição de tensões, reduz pontos propensos a trincas e facilita o manuseio durante a montagem e manutenção do robô.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img89.png" width="600">
+</td>
+
+</tr>
+
+</table>
 
 
 
