@@ -620,4 +620,113 @@ Na próxima atividade iniciaremos o desenvolvimento do **Intake**, mecanismo res
 >
 > Embora este tutorial utilize um chassi equipado com módulos **MK4i**, o procedimento apresentado é aplicável a qualquer configuração estrutural. Alteram-se apenas as dimensões do chassi, o modelo dos módulos de locomoção e os componentes comerciais utilizados, mantendo-se a mesma metodologia de montagem.
 
+# Construção do Intake
+
+Com a estrutura do chassi concluída, iniciaremos agora o desenvolvimento do primeiro subsistema do robô: o **Intake**.
+
+O intake é o mecanismo responsável pela coleta das *Game Pieces* presentes no campo, sendo um dos principais sistemas responsáveis pela interação do robô com o jogo.
+
+Neste projeto serão utilizados componentes comerciais amplamente empregados por equipes da FIRST Robotics Competition. A utilização desses componentes reduz o tempo de fabricação, aumenta a confiabilidade do sistema e permite que a equipe concentre seus esforços no desenvolvimento da estrutura e da estratégia do robô.
+
+---
+
+## Download dos Componentes
+
+Antes de iniciar a modelagem, faça o download dos componentes comerciais que serão utilizados durante a montagem.
+
+### Sistema de Acionamento
+
+- [**Motor Kraken X60**](https://wcproducts.info/files/frc/cad/WCP-0940.STEP)
+
+- [**Motor NEO com Redução MAXPlanetary (2 estágios)**](https://revrobotics.com/content/cad/MAXPlanetary%202-Stage.STEP)
+
+---
+
+### Transmissão
+
+- [**Coroa MAXSpline #25 – 40 dentes**](https://revrobotics.com/content/cad/REV-21-3370.STEP)
+
+- [**Pinhão #25 – 14 dentes (Hexagonal 1/2")**](https://s3.amazonaws.com/docusync-files/72aae5dfe3a24481234619e8146f0983a984abef2d032e28b7412a1ecb7ba2ef/am-4773%2014T%2025%20Chain%20500in%20Hex%20Symmetrical.STEP)
+
+---
+
+### Sistema de Eixos
+
+- [**Eixo MAXSpline**](https://www.revrobotics.com/content/cad/REV-21-2520.STEP)
+
+- [**Bloco de Rolamento MAXSpline**](https://revrobotics.com/content/cad/REV-21-3297.STEP)
+
+- [**Adaptador MAXSpline para Hexagonal 1/2"**](https://wcproducts.info/files/frc/cad/WCP-1118.step)
+  
+  
+- [**Anel de Fixação MAXSpline**](https://www.revrobotics.com/content/cad/REV-21-3476.STEP)
+
+---
+
+### Estrutura
+
+- **Acoplador para Tubo 2" × 1"**
+
+https://cdn.andymark.com/media/W1siZiIsIjIwMjMvMDUvMzEvMTEvMTUvNDQvZmZlYmUxMmItMDBkMi00Y2Y1LWFmZDQtZTlkNjMwOWQ4Zjg1L2FtLTQ3NjIgVHViZSBQbHVnIGZvciAyeDF4LjEyNS5TVEVQIl1d/am-4762%20Tube%20Plug%20for%202x1x.125.STEP?sha=92282de41545b7d6
+
+---
+
+## Materiais de Fabricação
+
+Todas as chapas utilizadas neste projeto possuem **espessura de 5 mm**.
+
+Dependendo da disponibilidade da equipe, elas podem ser fabricadas utilizando materiais como:
+
+- Alumínio;
+- Policarbonato;
+- MAX Composite;
+- Outros materiais estruturais equivalentes.
+
+A escolha do material dependerá dos requisitos de resistência, peso, facilidade de fabricação e recursos disponíveis na equipe.
+
+</div>
+
+> [!TIP] <div align="justify">
+>
+> Procure manter todos os arquivos CAD organizados em uma estrutura de pastas desde o início do projeto.
+>
+> Uma sugestão é separar os componentes por categorias, como:
+>
+> ```txt
+> Projeto
+> ├── Chassi
+> ├── Intake
+> ├── Elevator
+> ├── Hand
+> ├── Motores
+> ├── Transmissão
+> └── Componentes Comerciais
+> ```
+>
+> Essa organização facilita futuras modificações, reduz o tempo de procura por arquivos e torna o projeto muito mais fácil de compartilhar com outros integrantes da equipe.
+
+---
+
+## Preparando a Montagem
+
+Crie um novo arquivo de montagem (`Standard (mm).iam`) e insira o chassi desenvolvido anteriormente.
+
+Em seguida, importe todos os componentes comerciais baixados nesta etapa.
+
+Não se preocupe com o posicionamento inicial dos componentes. Nesta fase, o objetivo é apenas reunir todos os elementos necessários para o desenvolvimento do mecanismo.
+
+Ao final desta etapa, sua montagem deverá apresentar uma configuração semelhante à ilustrada abaixo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img27.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
 </div>
