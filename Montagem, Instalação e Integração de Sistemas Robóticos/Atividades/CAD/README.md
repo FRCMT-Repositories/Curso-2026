@@ -1627,7 +1627,7 @@ A correta instalação desses componentes é fundamental para garantir que o eix
 
 ---
 
-## Etapa 38 — Ajustando o Comprimento do Eixo MAXSpline
+### Etapa 38 — Ajustando o Comprimento do Eixo MAXSpline
 
 Com todos os componentes posicionados, é possível determinar o comprimento final do eixo MAXSpline.
 
@@ -1653,7 +1653,7 @@ Neste momento, observe que o eixo ainda ultrapassa o perímetro do robô. Para a
 
 ---
 
-## Etapa 39 — Criando a Chapa Lateral do Intake
+### Etapa 39 — Criando a Chapa Lateral do Intake
 
 O próximo passo consiste em desenvolver a chapa lateral responsável por sustentar a extremidade do mecanismo de coleta.
 
@@ -1677,7 +1677,7 @@ Salve o arquivo e retorne à montagem principal.
 
 ---
 
-## Etapa 40 — Posicionando a Chapa Lateral
+### Etapa 40 — Posicionando a Chapa Lateral
 
 Insira a chapa recém-criada na montagem e aplique as restrições necessárias para posicioná-la conforme ilustrado na figura abaixo.
 
@@ -1710,7 +1710,7 @@ Verifique se a peça permanece:
 
 ---
 
-## Etapa 41 — Utilizando a Ferramenta de Visibilidade
+### Etapa 41 — Utilizando a Ferramenta de Visibilidade
 
 À medida que a montagem evolui, a quantidade de componentes aumenta significativamente, tornando algumas operações de edição mais difíceis.
 
@@ -1751,6 +1751,246 @@ Para isso, clique com o **botão direito do mouse** sobre a peça desejada e sel
 > [!NOTE] <div align="justify">
 >
 > Ocultar componentes não altera a montagem nem remove restrições aplicadas às peças. Esse recurso serve apenas para facilitar a visualização e o acesso às regiões internas do mecanismo durante a modelagem e edição.
+
+---
+
+### Etapa 42 — Desenvolvendo a Chapa Lateral do Intake
+
+Com a estrutura principal do mecanismo concluída, iniciaremos agora o desenvolvimento da chapa lateral responsável por definir a geometria do intake.
+
+Essa chapa possui diversas funções importantes, entre elas:
+
+- sustentar os eixos de coleta;
+- definir a trajetória percorrida pela *Game Piece* (FUEL);
+- servir como referência para posicionamento dos tubos estruturais;
+- limitar o curso do mecanismo de coleta.
+
+Para iniciar, edite a chapa lateral e crie um novo esboço.
+
+Adicione as duas linhas indicadas na imagem:
+
+- a primeira representa o limite frontal do robô;
+- a segunda representa o plano do piso (chão).
+
+</div>
+
+> [!IMPORTANT] <div align="justify">
+>
+> Nesta etapa o projeto **não considera a instalação do Bumper**. Esse componente será levado em consideração posteriormente durante a validação das dimensões finais do robô.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img69.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+### Etapa 43 — Definindo a Geometria do Intake
+
+Utilizando as referências criadas anteriormente, desenvolva o esboço conforme ilustrado nas figuras seguintes.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img70.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Durante essa etapa serão criadas duas geometrias principais:
+
+- um **retângulo**, representando o tubo estrutural que será instalado posteriormente;
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img71.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+- um **arco circular**, responsável por formar a abertura lateral utilizada para direcionar a entrada da FUEL no mecanismo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img72.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Essa abertura facilita a captura da *Game Piece* mesmo quando ela não está perfeitamente alinhada com o centro do robô.
+
+---
+
+### Etapa 44 — Posicionando os Eixos de Coleta
+
+Agora serão definidos os pontos de fixação dos eixos responsáveis por transportar a FUEL para o interior do robô.
+
+Adicione as furações conforme indicado na figura abaixo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img73.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img74.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Essas furações servirão como apoio para os eixos sextavados que receberão posteriormente os roletes de coleta.
+
+O correto posicionamento desses eixos influencia diretamente a eficiência do mecanismo de coleta.
+
+---
+
+### Etapa 45 — Fixação dos Tubos Estruturais
+
+Adicione também a furação destinada à fixação dos **Acopladores de Tubo 2" × 1"**.
+
+Esses componentes serão responsáveis por conectar os tubos estruturais ao restante da montagem, aumentando a rigidez do mecanismo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img75.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+### Etapa 46 — Finalizando o Perfil da Chapa
+
+Com todas as referências concluídas, remova as linhas auxiliares que não fazem parte do contorno final da peça.
+
+Verifique se o perfil está completamente fechado antes de prosseguir.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img76.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Em seguida, realize a extrusão da peça mantendo a espessura padrão adotada no projeto.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="450">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img77.png" width="450">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+### Etapa 47 — Definindo a Trajetória da FUEL
+
+Agora iniciaremos o dimensionamento do sistema de coleta.
+
+Crie um novo esboço utilizando novamente o plano da chapa lateral.
+
+Nesse esboço:
+
+- a linha inferior representa o piso do campo;
+- o círculo representa a FUEL utilizada durante a temporada.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img78.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img79.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Essa representação será utilizada como referência para posicionar corretamente os roletes responsáveis pela coleta.
+
+---
+
+### Etapa 48 — Posicionando o Primeiro Rolete
+
+Com a representação da FUEL criada, desenvolva agora o primeiro eixo de coleta.
+
+O objetivo é garantir que o rolete permaneça em contato com a Game Piece, criando uma pequena interferência entre ambos.
+
+Essa interferência é proposital e necessária para gerar pressão suficiente entre o rolete e a FUEL, permitindo que o atrito seja capaz de puxá-la para o interior do robô.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img80.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!TIP] <div align="justify">
+>
+> Um bom intake não depende apenas da velocidade dos motores. O posicionamento dos roletes, o grau de interferência com a Game Piece e a trajetória criada ao longo do mecanismo são fatores que influenciam diretamente a eficiência da coleta. Durante o desenvolvimento do CAD, procure sempre visualizar como a peça do jogo percorrerá todo o caminho até o interior do robô.
+
+
+
 
 
 </div>
