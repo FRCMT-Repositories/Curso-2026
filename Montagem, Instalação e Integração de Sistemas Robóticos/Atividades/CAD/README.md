@@ -2033,7 +2033,7 @@ Garanta que o corte atravesse completamente a espessura da chapa.
 
 ---
 
-## Etapa 51 — Inserindo o Motor Kraken X60
+### Etapa 51 — Inserindo o Motor Kraken X60
 
 Retorne ao ambiente de montagem e insira o modelo CAD do **Kraken X60**.
 
@@ -2076,7 +2076,7 @@ Durante o posicionamento, verifique se:
 
 ---
 
-## Etapa 52 — Criando a Furação do Motor
+### Etapa 52 — Criando a Furação do Motor
 
 Com o motor corretamente posicionado, edite novamente a chapa lateral e projete as geometrias necessárias para a sua fixação.
 
@@ -2104,7 +2104,7 @@ Após concluir o esboço, realize os recortes correspondentes.
 
 ---
 
-## Etapa 53 — Criando o Fim de Curso Mecânico
+### Etapa 53 — Criando o Fim de Curso Mecânico
 
 O próximo passo consiste em adicionar um **fim de curso mecânico** para limitar o movimento de descida do intake.
 
@@ -2140,7 +2140,7 @@ Crie a geometria conforme ilustrado abaixo, garantindo que o contato aconteça a
 
 ---
 
-## Etapa 54 — Aplicando Raios de Acabamento
+### Etapa 54 — Aplicando Raios de Acabamento
 
 Para concluir esta etapa, aplique raios nas arestas vivas da peça.
 
@@ -2158,6 +2158,141 @@ A utilização de raios melhora a distribuição de tensões, reduz pontos prope
 
 </table>
 
+---
+
+### Etapa 55 — Restaurando a Visibilidade dos Componentes
+
+Retorne ao ambiente de montagem e reative a visibilidade das peças ocultadas anteriormente.
+
+Na árvore de componentes, localize os itens exibidos com o ícone transparente. Em seguida, clique com o **botão direito do mouse** sobre cada componente e selecione a opção **Visibilidade**.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="100">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img90.png" width="100">
+</td>
+
+</tr>
+<tr>
+
+<td align="center" width="100">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img91.png" width="100">
+</td>
+
+</tr>
+</table>
+
+
+</div>
+
+> [!NOTE] <div align="justify">
+>
+> Reativar a visibilidade dos componentes permite verificar o conjunto completo, identificar possíveis interferências e validar o posicionamento final das peças antes de continuar a montagem.
+
+---
+
+## Etapa 56 — Criando a Chapa Lateral Oposta
+
+O próximo passo consiste em criar a chapa lateral correspondente ao outro lado do intake.
+
+Utilize como base a chapa lateral desenvolvida anteriormente. Crie uma cópia do arquivo e insira essa nova peça na montagem.
+
+Em seguida, aplique as restrições necessárias para posicioná-la no lado oposto do mecanismo, mantendo o alinhamento e a simetria do conjunto.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img92.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img93.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img94.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img95.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img96.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Durante o posicionamento, verifique se a nova chapa permanece:
+
+- paralela à chapa do lado oposto;
+- alinhada aos eixos de coleta;
+- corretamente posicionada em relação ao chassi;
+- sem interferências com os demais componentes.
+
+---
+
+## Etapa 57 — Instalando o Segundo Motor Kraken X60
+
+Com a segunda chapa posicionada, copie o motor **Kraken X60** já inserido anteriormente e monte-o na nova lateral do intake.
+
+Aplique as restrições necessárias para alinhar o eixo do motor ao mecanismo correspondente.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img97.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img98.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img99.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!IMPORTANT] <div align="justify">
+>
+> Antes de concluir esta etapa, confirme se os dois motores estão corretamente alinhados e se nenhum deles interfere com o chassi, as chapas laterais, os eixos ou os demais componentes do intake.
 
 
 </div>
