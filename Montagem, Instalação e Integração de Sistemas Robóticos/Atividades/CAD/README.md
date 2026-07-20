@@ -45,7 +45,9 @@ Neste exemplo serão utilizados:
 
 - [Download do tubo Linha Forja 2" × 1"](https://drive.google.com/file/d/1UcgZVlp9a8qg29x84kIeoxbYTjqd8tvp/view)
 
-> [!TIP]
+</div>
+
+> [!TIP] <div align="justify">
 >
 > Sempre que possível, utilize os modelos CAD oficiais disponibilizados pelos fabricantes. Isso garante maior precisão dimensional, reduz o tempo de desenvolvimento e evita erros durante a montagem do robô.
 
