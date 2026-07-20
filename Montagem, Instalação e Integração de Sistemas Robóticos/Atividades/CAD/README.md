@@ -77,7 +77,7 @@ A partir deste ponto, iniciaremos a criação da estrutura do chassi, importando
 
 Com o Autodesk Inventor aberto, vamos criar o ambiente onde todos os componentes do robô serão montados.
 
-### Passo 1 — Criando um Novo Arquivo de Montagem
+### Etapa 1 — Criando um Novo Arquivo de Montagem
 
 No menu inicial do Autodesk Inventor, selecione:
 
@@ -101,7 +101,7 @@ Em seguida, clique em **Criar**.
 
 ---
 
-### Passo 2 — Inserindo os Componentes
+### Etapa 2 — Inserindo os Componentes
 
 Com o ambiente de montagem criado, clique na opção **Inserir**, localizada na parte superior esquerda da tela.
 
@@ -123,7 +123,7 @@ Após localizar o componente, clique em **Abrir** para inseri-lo na montagem.
 
 ---
 
-### Passo 3 — Posicionando os Módulos
+### Etapa 3 — Posicionando os Módulos
 
 Insira quatro módulos de swerve na montagem, representando cada uma das rodas do robô.
 
@@ -151,7 +151,7 @@ Esse procedimento define o módulo como referência da montagem, impedindo que e
 
 ---
 
-### Passo 4 — Aplicando Restrições
+### Etapa 4 — Aplicando Restrições
 
 Para posicionar corretamente os módulos, acesse:
 
@@ -175,7 +175,7 @@ A ferramenta **Restringir** é responsável por definir a relação geométrica 
 
 ---
 
-### Passo 5 — Selecionando as Faces
+### Etapa 5 — Selecionando as Faces
 
 Com a ferramenta ativa:
 
@@ -210,9 +210,102 @@ Depois de selecionar ambas as faces, altere a opção **Solução** para o **seg
 
 ---
 
-### Resultado Esperado
+### Verificando a Montagem
 
-Após aplicar corretamente as restrições, os módulos deverão permanecer alinhados conforme ilustrado na imagem abaixo.
+Neste momento, após aplicar as primeiras restrições, sua montagem deverá apresentar uma configuração semelhante à ilustrada na imagem abaixo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img7.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+> [!IMPORTANT]
+> <div align="justify">
+>
+> Neste momento, não se preocupe com o posicionamento definitivo dos módulos. O objetivo desta etapa é apenas estabelecer as primeiras referências da montagem. As dimensões finais do chassi serão definidas nas próximas etapas, quando forem aplicadas as restrições de distância entre os módulos e inseridos os tubos estruturais.
+>
+> </div>
+
+---
+
+### Etapa 6 — Alinhando os Módulos
+
+Agora vamos alinhar todos os módulos de swerve para que compartilhem o mesmo plano de referência.
+
+Para isso, ative novamente a ferramenta **Restringir** e selecione a face superior do módulo que foi fixado anteriormente. Em seguida, selecione a face superior do segundo módulo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img7.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Repita o mesmo procedimento para os demais módulos até que todos estejam alinhados no mesmo plano.
+
+Ao concluir esta etapa, a montagem deverá apresentar uma configuração semelhante à ilustrada abaixo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img7.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+### Etapa 7 — Definindo as Dimensões do Chassi
+
+Com todos os módulos alinhados, podemos definir o comprimento e a largura do chassi.
+
+Neste exemplo será utilizada uma dimensão final de **685,8 mm × 685,8 mm**.
+
+Para isso, selecione as faces externas dos dois módulos que definirão uma das extremidades do chassi.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img7.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Em seguida, configure a restrição utilizando um **Deslocamento** de **-685,8 mm**, conforme ilustrado abaixo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img7.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Repita o mesmo procedimento para a outra direção do chassi, garantindo que os quatro módulos fiquem posicionados corretamente de acordo com as dimensões especificadas.
 
 <table align="center">
 
@@ -228,8 +321,10 @@ Após aplicar corretamente as restrições, os módulos deverão permanecer alin
 
 </div>
 
-> [!IMPORTANT] <div align="justify">
+> [!TIP] <div align="justify">
 >
-> Não se preocupe com o posicionamento exato dos módulos neste momento. O objetivo desta etapa é apenas estabelecer as primeiras referências da montagem. As dimensões finais do chassi serão definidas nas próximas etapas, quando os tubos estruturais forem inseridos e restringidos.
+> Antes de prosseguir para a montagem da estrutura, confira se todas as restrições foram aplicadas corretamente. Movimente levemente os módulos para verificar se permanecem posicionados conforme esperado. Detectar problemas nesta etapa evita retrabalho durante a inserção dos tubos estruturais.
+
+
 
 </div>
