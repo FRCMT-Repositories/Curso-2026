@@ -720,11 +720,320 @@ Ao final desta etapa, sua montagem deverá apresentar uma configuração semelha
 <tr>
 
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Img27.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img1.png" width="600">
 </td>
 
 </tr>
 
 </table>
+
+---
+
+## Etapa 15 — Desenvolvendo as Chapas Laterais do Intake
+
+Com os principais componentes comerciais já inseridos na montagem, o próximo passo consiste em desenvolver a estrutura responsável por sustentar todo o mecanismo do intake.
+
+Neste projeto, essa estrutura será composta por duas chapas laterais, responsáveis por:
+
+- fixar o intake ao chassi;
+- suportar o motor responsável pela articulação do mecanismo;
+- alojar os rolamentos do eixo MAXSpline;
+- garantir o correto alinhamento entre todos os componentes.
+
+As chapas serão fixadas utilizando os próprios furos existentes nos tubos estruturais do chassi.
+
+---
+
+### Etapa 16 — Criando as Chapas
+
+Crie uma nova peça (`Standard (mm).ipt`) e desenvolva o esboço conforme ilustrado na imagem abaixo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img2.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Após concluir o esboço, realize uma **Extrusão** de **5 mm**, correspondente à espessura adotada para todas as chapas deste projeto.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img3.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Salve duas cópias da peça, representando as chapas laterais do mecanismo.
+
+Exemplo:
+
+```txt
+CHAPA LATERAL ESQ
+CHAPA LATERAL DIR
+```
+
+Após salvar os arquivos, feche-os para retornar ao ambiente de montagem.
+
+---
+
+### Etapa 17 — Posicionando as Chapas
+
+Retorne ao arquivo de montagem e insira as chapas criadas anteriormente.
+
+Em seguida, aplique as restrições necessárias para posicioná-las conforme ilustrado na figura abaixo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img4.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img5.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Neste momento, as chapas servirão apenas como referência para o posicionamento dos demais componentes do mecanismo.
+
+---
+
+## Etapa 18 — Posicionando o Motor de Articulação
+
+O próximo componente a ser instalado será o motor responsável pela abertura e fechamento do intake.
+
+Posicione o conjunto **NEO + MAXPlanetary** restringindo inicialmente a face frontal do redutor com a face interna da chapa lateral.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img6.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Em seguida, aplique as demais restrições indicadas nas imagens abaixo até que o conjunto permaneça completamente definido.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img7.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img8.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 19 — Instalando os Rolamentos
+
+Com o motor posicionado, instale os blocos de rolamento responsáveis por sustentar o eixo MAXSpline.
+
+Os rolamentos deverão permanecer alinhados ao eixo de saída do redutor, garantindo que o sistema opere sem desalinhamentos durante a movimentação.
+
+Posicione o primeiro rolamento conforme indicado.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img9.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img10.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Posicionamento do segundo rolamento
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img11.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img12.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img13.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 20 — Instalando o Eixo MAXSpline
+
+Com ambos os rolamentos posicionados, insira o eixo MAXSpline.
+
+Nesta etapa, o objetivo é apenas validar o alinhamento entre:
+
+- redutor;
+- rolamentos;
+- eixo principal.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img14.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img15.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+## Etapa 21 — Adaptando as Chapas
+
+Com todos os componentes posicionados, podemos iniciar a usinagem das chapas laterais.
+
+Dê um duplo clique sobre a chapa interna para editá-la.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img16.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Crie o esboço estrutural ilustrado abaixo e realize a extrusão mantendo a espessura de **5 mm**.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img17.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+Na sequência, desenvolva o segundo esboço responsável pelos alojamentos do motor e do rolamento.
+
+Para garantir total precisão entre as peças, utilize a ferramenta **Projetar Geometria**, importando diretamente as bordas e centros dos furos dos componentes posicionados na montagem.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img18.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img19.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!TIP] <div align="justify">
+>
+> A ferramenta **Projetar Geometria** é uma das mais importantes durante o desenvolvimento de mecanismos. Ela permite utilizar diretamente a geometria dos componentes já posicionados na montagem como referência para o esboço, eliminando medições manuais e garantindo que furos, eixos e alojamentos permaneçam perfeitamente alinhados.
+
+Continue o desenvolvimento do esboço conforme ilustrado nas figuras seguintes.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img20.png" width="600">
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img21.png" width="600">
+</td>
+
+</tr>
+
+</table>
+
 
 </div>
