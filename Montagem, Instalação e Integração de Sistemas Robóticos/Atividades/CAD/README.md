@@ -1330,8 +1330,8 @@ Esses componentes servirão como referência para validar o alinhamento do siste
 
 <tr>
 
-<td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img38.png" width="600">
+<td align="center" width="350">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img38.png" width="350">
 </td>
 
 </tr>
@@ -1472,14 +1472,6 @@ Durante o posicionamento, garanta que as chapas permaneçam:
 - corretamente posicionadas em relação ao eixo MAXSpline.
 
 <table align="center">
-
-<tr>
-
-<td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img45.png" width="600">
-</td>
-
-</tr>
 
 <tr>
 
