@@ -2637,25 +2637,25 @@ Esse rolamento permitirá que a polia gire livremente sobre o eixo, reduzindo at
 
 <tr>
 <td align="center" width="400">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img125.png" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img125.png" width="400">
 </td>
 </tr>
 
 <tr>
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img126.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img126.png" width="600">
 </td>
 </tr>
 
 <tr>
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img127.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img127.png" width="600">
 </td>
 </tr>
 
 <tr>
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img128.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img128.png" width="600">
 </td>
 </tr>
 
@@ -2679,19 +2679,19 @@ Essa região deverá transmitir corretamente o movimento da polia para o tubo, m
 
 <tr>
 <td align="center" width="400">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img129.png" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img129.png" width="400">
 </td>
 </tr>
 
 <tr>
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img130.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img130.png" width="600">
 </td>
 </tr>
 
 <tr>
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img131.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img131.png" width="600">
 </td>
 </tr>
 
@@ -2715,37 +2715,37 @@ Aplique as restrições correspondentes para garantir que a polia e o rolamento 
 
 <tr>
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img132.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img132.png" width="600">
 </td>
 </tr>
 
 <tr>
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img133.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img133.png" width="600">
 </td>
 </tr>
 
 <tr>
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img134.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img134.png" width="600">
 </td>
 </tr>
 
 <tr>
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img135.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img135.png" width="600">
 </td>
 </tr>
 
 <tr>
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img136.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img136.png" width="600">
 </td>
 </tr>
 
 <tr>
 <td align="center" width="600">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img137.png" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img137.png" width="600">
 </td>
 </tr>
 
