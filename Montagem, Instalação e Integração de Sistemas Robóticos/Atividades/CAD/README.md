@@ -2765,6 +2765,327 @@ Durante a montagem, verifique se:
 >
 > Antes de prosseguir, utilize a ferramenta de inspeção do Inventor para verificar possíveis interferências entre os componentes. Isso evita problemas de montagem e ajuda a garantir que o rolete possa girar livremente durante o funcionamento.
 
+---
+
+### Etapa 70 — Determinando o Comprimento do Tubo do Rolete
+
+Com as polias já posicionadas, utilize a ferramenta de medição do Inventor para obter a distância interna entre as faces de encosto das duas polias.
+
+Essa medida corresponderá ao comprimento final do tubo que formará o corpo do rolete de coleta.
+
+<table align="center">
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img138.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img139.png" width="600">
+</td>
+</tr>
+
+</table>
+
+</div>
+
+> [!TIP] <div align="justify">
+>
+> Realize a medição diretamente entre as superfícies onde o tubo deverá encostar. Dessa forma, o comprimento modelado representará corretamente o espaço disponível na montagem.
+
+---
+
+### Etapa 71 — Modelando o Tubo do Rolete
+
+Crie uma nova peça e modele o tubo utilizando o comprimento obtido na etapa anterior.
+
+Verifique se os diâmetros interno e externo são compatíveis com o encaixe das polias e com o material que será utilizado para aumentar a aderência sobre a FUEL.
+
+<table align="center">
+
+<tr>
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img140.png" width="400">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img141.png" width="400">
+</td>
+</tr>
+
+</table>
+
+Após concluir a modelagem, salve o arquivo e retorne à montagem principal.
+
+---
+
+### Etapa 72 — Posicionando o Tubo na Montagem
+
+Insira o tubo recém-criado e aplique as restrições necessárias para posicioná-lo entre as duas polias.
+
+Durante essa etapa, verifique se:
+
+- o tubo está concêntrico às polias;
+- suas extremidades encostam corretamente nas faces de apoio;
+- não existem folgas excessivas;
+- o conjunto consegue girar sem interferências.
+
+<table align="center">
+
+<tr>
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img142.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img143.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img144.png" width="600">
+</td>
+</tr>
+
+</table>
+
+---
+
+### Etapa 73 — Criando os Espaçadores dos Motores Kraken X60
+
+O próximo passo consiste em desenvolver os espaçadores responsáveis por fixar corretamente os motores Kraken X60 às chapas laterais do intake.
+
+Meça a distância entre a face de montagem do motor e a chapa correspondente. Em seguida, crie um novo componente utilizando essa dimensão como comprimento do espaçador.
+
+<table align="center">
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img145.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img146.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img147.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img148.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img149.png" width="600">
+</td>
+</tr>
+
+</table>
+
+Os espaçadores devem:
+
+- manter o motor corretamente afastado da chapa;
+- evitar deformações durante o aperto dos parafusos;
+- garantir o alinhamento do eixo do motor;
+- permitir acesso adequado para montagem e manutenção.
+
+---
+
+### Etapa 74 — Instalando os Anéis de Fixação MAXSpline
+
+Insira na montagem os **Anéis de Fixação MAXSpline — Fino** e posicione-os conforme ilustrado nas imagens abaixo.
+
+Esses componentes serão responsáveis por limitar o deslocamento axial do eixo MAXSpline, evitando que ele se movimente lateralmente durante o funcionamento do intake.
+
+<table align="center">
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img150.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img151.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img152.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img153.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img154.png" width="600">
+</td>
+</tr>
+
+</table>
+
+</div>
+
+> [!IMPORTANT] <div align="justify">
+>
+> Os anéis devem impedir o deslocamento lateral do eixo sem pressionar excessivamente os rolamentos. Um conjunto muito apertado pode aumentar o atrito e dificultar a rotação do mecanismo.
+
+---
+
+### Etapa 75 — Definindo o Fim de Curso de Recolhimento
+
+Com o intake completamente montado, posicione o mecanismo na condição desejada de recolhimento.
+
+Essa posição será utilizada como referência para criar um fim de curso mecânico que impeça o mecanismo de avançar além do ponto definido.
+
+<table align="center">
+
+<tr>
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img155.png" width="400">
+</td>
+</tr>
+
+</table>
+
+---
+
+### Etapa 76 — Criando o Batente Mecânico
+
+Edite as duas chapas responsáveis pela fixação do intake ao chassi.
+
+Crie um novo esboço e utilize a ferramenta **Projetar Geometria** para transferir as referências da chapa móvel do intake.
+
+Em seguida, defina a posição do furo por onde será instalado o parafuso responsável por atuar como batente mecânico.
+
+Após concluir o esboço, realize a extrusão no modo **Recortar**.
+
+<table align="center">
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img156.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img157.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img158.png" width="600">
+</td>
+</tr>
+
+</table>
+
+</div>
+
+> [!IMPORTANT] <div align="justify">
+>
+> O parafuso utilizado como batente deverá receber o impacto do mecanismo sem permitir contato indevido entre o intake e o chassi. Sempre que possível, utilize arruelas, espaçadores ou materiais de amortecimento para distribuir melhor os esforços.
+
+---
+
+# Intake Concluído
+
+Com a instalação do tubo do rolete, dos espaçadores, dos anéis de fixação e dos batentes mecânicos, o desenvolvimento do intake está concluído.
+
+Antes de finalizar o projeto, realize uma inspeção completa da montagem e verifique:
+
+- alinhamento dos motores, eixos e rolamentos;
+- liberdade de movimento dos roletes;
+- ausência de interferências entre componentes;
+- posicionamento correto dos fins de curso;
+- rigidez das chapas e tubos estruturais;
+- acesso para montagem, manutenção e passagem de cabos;
+- respeito ao perímetro e às limitações dimensionais do robô.
+
+<table align="center">
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img159.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img160.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img161.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img162.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img163.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img164.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img165.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img167.png" width="600">
+</td>
+</tr>
+
+</table>
+
+</div>
+
+> [!NOTE] <div align="justify">
+>
+> A conclusão do CAD representa apenas uma etapa do desenvolvimento. Antes da fabricação definitiva, recomenda-se revisar as dimensões, validar os materiais escolhidos, analisar os esforços esperados e, sempre que possível, construir e testar protótipos do mecanismo.
+
+
 
 
 
