@@ -2479,7 +2479,131 @@ Aplique as restrições necessárias para alinhar:
 >
 > O tubo estrutural não atua apenas como espaçador entre as chapas. Ele também contribui para a rigidez torcional do intake, reduzindo flexões e desalinhamentos durante a coleta das FUEL.
 
-test
+---
+
+### Etapa 62 — Modelando o Eixo Sextavado
+
+Agora vamos desenvolver o eixo sextavado responsável por transmitir o movimento para os roletes de coleta.
+
+Crie uma nova peça (`Standard (mm).ipt`) e desenvolva o esboço conforme ilustrado na figura abaixo.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img113.png" width="400">
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+> [!NOTE] <div align="justify">
+>
+> O eixo sextavado é amplamente utilizado em robôs FRC por permitir a transmissão de torque sem a necessidade de chavetas ou perfis usinados, simplificando a montagem e a substituição de componentes.
+
+---
+
+### Etapa 63 — Criando o Corpo do Eixo
+
+Com o perfil sextavado concluído, realize uma **Extrusão** de **661,4 mm**, obtendo o comprimento necessário para atravessar toda a largura do intake.
+
+Para facilitar o posicionamento do eixo durante a montagem, crie um novo esboço na extremidade da peça conforme indicado na imagem.
+
+Essa pequena geometria servirá apenas como referência para aplicação de restrições e alinhamentos no ambiente de montagem.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img114.png" width="400">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+### Etapa 64 — Extrudando a Referência
+
+Realize uma **Extrusão** de **1 mm** utilizando o esboço criado anteriormente.
+
+Essa pequena saliência não possui função estrutural e será utilizada exclusivamente como auxílio durante a aplicação das restrições no Inventor.
+
+Após concluir a modelagem, salve o arquivo e retorne à montagem principal.
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img115.png" width="400">
+</td>
+
+</tr>
+
+</table>
+
+---
+
+### Etapa 65 — Instalando os Eixos de Coleta
+
+Insira os eixos sextavados recém-criados na montagem e aplique as restrições necessárias para posicioná-los nos pontos de apoio definidos anteriormente.
+
+Durante a montagem, verifique se:
+
+- os eixos permanecem concêntricos aos rolamentos;
+- não existem interferências com as chapas laterais;
+- o comprimento é suficiente para acomodar todos os componentes de transmissão;
+- as extremidades permanecem acessíveis para a instalação dos roletes e demais elementos do mecanismo.
+
+<table align="center">
+
+<tr> <td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img116.png" width="600">
+</td> </tr>
+
+<tr> <td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img117.png" width="600">
+</td> </tr>
+
+<tr> <td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img118.png" width="600">
+</td> </tr>
+
+<tr> <td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img119.png" width="600">
+</td> </tr>
+
+<tr> <td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img120.png" width="600">
+</td> </tr>
+
+<tr> <td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img121.png" width="600">
+</td> </tr>
+
+<tr> <td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img122.png" width="600">
+</td> </tr>
+
+</table>
+
+</div>
+
+> [!TIP] <div align="justify">
+>
+> A pequena extrusão criada na extremidade do eixo facilita a aplicação das restrições de montagem, tornando o alinhamento muito mais simples do que utilizar apenas as faces do perfil sextavado. Esse é um recurso bastante utilizado em projetos CAD para acelerar montagens complexas.
+
+
+
+
+
 
 
 
