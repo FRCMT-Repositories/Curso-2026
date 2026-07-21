@@ -2599,6 +2599,171 @@ Durante a montagem, verifique se:
 > [!TIP] <div align="justify">
 >
 > A pequena extrusão criada na extremidade do eixo facilita a aplicação das restrições de montagem, tornando o alinhamento muito mais simples do que utilizar apenas as faces do perfil sextavado. Esse é um recurso bastante utilizado em projetos CAD para acelerar montagens complexas.
+---
+
+### Etapa 66 — Desenvolvendo a Polia do Rolete de Coleta
+
+O próximo passo consiste em desenvolver o conjunto responsável por transmitir o movimento ao rolete que realizará a coleta das FUEL.
+
+Para este projeto, será utilizada uma polia de **23 dentes**, responsável por transferir o movimento do sistema de transmissão para o tubo do rolete.
+
+Abra o arquivo da polia e prepare-o para receber os componentes de apoio do eixo.
+
+<table align="center">
+
+<tr>
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img123.png" width="400">
+</td>
+</tr>
+
+</table>
+
+---
+
+### Etapa 67 — Criando o Alojamento do Rolamento
+
+Edite a polia conforme as operações apresentadas nas imagens abaixo, criando o alojamento necessário para a instalação de um rolamento sextavado.
+
+Esse rolamento permitirá que a polia gire livremente sobre o eixo, reduzindo atrito e evitando que o conjunto fique travado durante o funcionamento.
+
+<table align="center">
+
+<tr>
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img124.png" width="400">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img125.png" width="400">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img126.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img127.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img128.png" width="600">
+</td>
+</tr>
+
+</table>
+
+</div>
+
+> [!IMPORTANT] <div align="justify">
+>
+> Verifique se o alojamento do rolamento apresenta folga suficiente para a montagem, mas sem excesso. Um encaixe muito apertado pode dificultar a instalação, enquanto um encaixe muito folgado pode gerar desalinhamento e vibração.
+
+---
+
+### Etapa 68 — Criando o Encaixe para o Tubo
+
+Agora desenvolva o corpo da polia responsável por realizar o encaixe com o tubo do rolete.
+
+Essa região deverá transmitir corretamente o movimento da polia para o tubo, mantendo o alinhamento entre os dois componentes.
+
+<table align="center">
+
+<tr>
+<td align="center" width="400">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img129.png" width="400">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img130.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img131.png" width="600">
+</td>
+</tr>
+
+</table>
+
+Após concluir a modelagem, salve o arquivo e feche a peça.
+
+---
+
+## Etapa 69 — Inserindo a Polia e o Rolamento na Montagem
+
+Retorne ao ambiente de montagem e insira:
+
+- a polia modificada;
+- o rolamento sextavado;
+- os demais componentes necessários para o conjunto do rolete.
+
+Aplique as restrições correspondentes para garantir que a polia e o rolamento permaneçam corretamente alinhados ao eixo.
+
+<table align="center">
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img132.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img133.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img134.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img135.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img136.png" width="600">
+</td>
+</tr>
+
+<tr>
+<td align="center" width="600">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3O%20e%20Integra%C3%A7%C3%A3O%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img137.png" width="600">
+</td>
+</tr>
+
+</table>
+
+Durante a montagem, verifique se:
+
+- o rolamento está corretamente apoiado;
+- a polia gira livremente sobre o eixo;
+- o encaixe com o tubo está alinhado;
+- não existem interferências entre a polia, a chapa e os demais componentes;
+- o conjunto possui espaço adequado para montagem e manutenção.
+
+</div>
+
+> [!TIP] <div align="justify">
+>
+> Antes de prosseguir, utilize a ferramenta de inspeção do Inventor para verificar possíveis interferências entre os componentes. Isso evita problemas de montagem e ajuda a garantir que o rolete possa girar livremente durante o funcionamento.
 
 
 
