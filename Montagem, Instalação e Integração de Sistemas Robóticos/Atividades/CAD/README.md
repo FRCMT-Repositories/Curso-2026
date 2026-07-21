@@ -1051,7 +1051,7 @@ Utilize o comando de `APAGAR` para remover as linhas desnecessárias.
 
 ---
 
-## Etapa 22 — Ajustando os Furos da Chapa Interna
+### Etapa 22 — Ajustando os Furos da Chapa Interna
 
 Com as geometrias do motor e do rolamento já projetadas sobre a chapa, aumente ligeiramente o diâmetro dos furos correspondentes ao eixo do motor e ao tubo MAXSpline.
 
@@ -1077,7 +1077,7 @@ Esse ajuste é importante para criar uma folga de montagem adequada, evitando in
 
 ---
 
-## Etapa 23 — Chapa de Sustenção Interna
+### Etapa 23 — Chapa de Sustenção Interna
 
 Após concluir os ajustes do esboço, utilize a ferramenta **Extrusão** para criar a chapa responsavel por segurar o motor e o tubo MAXSpline.
 
@@ -1097,7 +1097,7 @@ Para este exemplo, estamos considerando um material na espessura de `5 mm`
 
 ---
 
-## Etapa 24 — Aplicando Raios de Acabamento
+### Etapa 24 — Aplicando Raios de Acabamento
 
 Após realizar os recortes, aplique um raio de `5 mm` na aresta interna gerada e nas demais quinas vivas da peça.
 
@@ -1123,7 +1123,7 @@ A utilização de raios reduz a concentração de tensões, diminui a possibilid
 
 ---
 
-## Etapa 25 — Editando a Chapa Externa
+### Etapa 25 — Editando a Chapa Externa
 
 Com a chapa interna concluída, dê início à edição da chapa externa do intake.
 
@@ -1143,7 +1143,7 @@ Crie o esboço conforme a geometria apresentada abaixo e realize a extrusão man
 
 ---
 
-## Etapa 26 — Projetando as Geometrias dos Componentes
+### Etapa 26 — Projetando as Geometrias dos Componentes
 
 Crie um novo esboço sobre a face da chapa externa e utilize novamente a ferramenta **Projetar Geometria**.
 
@@ -1163,7 +1163,7 @@ Projete as referências relacionadas ao eixo do motor, ao tubo MAXSpline, aos ro
 
 ---
 
-## Etapa 27 — Ajustando os Furos da Chapa Externa
+### Etapa 27 — Ajustando os Furos da Chapa Externa
 
 Assim como realizado na chapa interna, aumente ligeiramente o diâmetro dos furos correspondentes ao eixo do motor e ao tubo MAXSpline.
 
@@ -1183,7 +1183,7 @@ Esse ajuste garante a folga necessária para a montagem e reduz o risco de inter
 
 ---
 
-## Etapa 28 — Completando o Esboço
+### Etapa 28 — Completando o Esboço
 
 Adicione as demais geometrias necessárias para definir o formato final da chapa externa.
 
@@ -1203,7 +1203,7 @@ Utilize cotas, restrições geométricas e referências projetadas para manter o
 
 ---
 
-## Etapa 29 — Limpando e Recortando o Esboço
+### Etapa 29 — Limpando e Recortando o Esboço
 
 Remova todas as linhas auxiliares ou segmentos que não fazem parte do contorno final da peça.
 
@@ -1223,7 +1223,7 @@ Antes de executar a extrusão, verifique se os perfis desejados estão completam
 
 ---
 
-## Etapa 30 — Finalizando a Chapa Externa
+### Etapa 30 — Finalizando a Chapa Externa
 
 Aplique raios nas quinas e arestas vivas da chapa externa, seguindo o mesmo padrão utilizado na chapa interna.
 
@@ -1243,7 +1243,7 @@ Além de melhorar o acabamento, esse procedimento reduz pontos de concentração
 
 ---
 
-## Etapa 31 — Posicionando as Coroas da Transmissão
+### Etapa 31 — Posicionando as Coroas da Transmissão
 
 Com as chapas laterais concluídas, iniciaremos a montagem do sistema de transmissão responsável pela movimentação do intake.
 
@@ -1320,7 +1320,7 @@ Posicione os dois componentes conforme ilustrado abaixo, garantindo que permane�
 
 ---
 
-## Etapa 32 — Representando o Eixo do Motor
+### Etapa 32 — Representando o Eixo do Motor
 
 Crie a representação do eixo de saída do motor e do rolamento utilizado no eixo sextavado.
 
@@ -1340,7 +1340,7 @@ Esses componentes servirão como referência para validar o alinhamento do siste
 
 ---
 
-## Etapa 33 — Montando o Conjunto de Transmissão
+### Etapa 33 — Montando o Conjunto de Transmissão
 
 Insira os componentes criados na montagem e aplique as restrições necessárias para posicioná-los corretamente.
 
@@ -1403,7 +1403,7 @@ Durante essa etapa, verifique se:
 
 ---
 
-## Etapa 34 — Criando as Chapas do Lado Oposto
+### Etapa 34 — Criando as Chapas do Lado Oposto
 
 Com o primeiro lado do intake definido, criaremos agora as chapas de apoio do lado oposto do mecanismo.
 
@@ -1423,7 +1423,7 @@ Utilize como base as chapas desenvolvidas anteriormente. Crie uma cópia de cada
 
 ---
 
-## Etapa 35 — Adaptando as Chapas do Segundo Lado
+### Etapa 35 — Adaptando as Chapas do Segundo Lado
 
 Como o conjunto de acionamento será instalado em apenas um lado do intake, as chapas do lado oposto não precisam dos alojamentos destinados ao motor e ao rolamento do eixo de saída.
 
@@ -1460,7 +1460,7 @@ Mantenha apenas as geometrias necessárias para:
 
 ---
 
-## Etapa 36 — Posicionando as Chapas no Chassi
+### Etapa 36 — Posicionando as Chapas no Chassi
 
 Insira as chapas adaptadas no lado oposto do intake e aplique as restrições necessárias para fixá-las ao chassi.
 
@@ -1533,7 +1533,7 @@ Durante o posicionamento, garanta que as chapas permaneçam:
 
 Após a conclusão desta etapa, os dois lados do intake deverão apresentar a mesma referência estrutural, diferenciando-se apenas pela presença do sistema de acionamento em uma das laterais.
 
-## Etapa 37 — Montando a Coroa e o Bloco de Rolamento
+### Etapa 37 — Montando a Coroa e o Bloco de Rolamento
 
 Agora vamos posicionar a **coroa usinada #25 MAXSpline de 40 dentes** e o **bloco de rolamento para eixo MAXSpline com montagem lateral**.
 
@@ -2170,15 +2170,15 @@ Na árvore de componentes, localize os itens exibidos com o ícone transparente.
 
 <tr>
 
-<td align="center" width="100">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img90.png" width="100">
+<td align="center" width="200">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img90.png" width="200">
 </td>
 
 </tr>
 <tr>
 
-<td align="center" width="100">
-	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img91.png" width="100">
+<td align="center" width="200">
+	<img src="https://github.com/FRCMT-Repositories/Curso-2026/blob/main/Montagem%2C%20Instala%C3%A7%C3%A3o%20e%20Integra%C3%A7%C3%A3o%20de%20Sistemas%20Rob%C3%B3ticos/Atividades/CAD/img/Intake/Img91.png" width="200">
 </td>
 
 </tr>
@@ -2701,7 +2701,7 @@ Após concluir a modelagem, salve o arquivo e feche a peça.
 
 ---
 
-## Etapa 69 — Inserindo a Polia e o Rolamento na Montagem
+### Etapa 69 — Inserindo a Polia e o Rolamento na Montagem
 
 Retorne ao ambiente de montagem e insira:
 
