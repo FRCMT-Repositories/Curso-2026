@@ -36,15 +36,16 @@ public class Robot extends TimedRobot {
     CommandScheduler.getInstance().run();
 
     if((lastkP != m_Dashboard.getSlider3()) || (lastkI != m_Dashboard.getSlider4()) || (lastkD != m_Dashboard.getSlider5())){
-      // m_MotorNEO.setPID(m_Dashboard.getSlider3(), m_Dashboard.getSlider4(), m_Dashboard.getSlider5());
-      m_MotorNEO.setMaxMotionVar(m_Dashboard.getSlider3(), m_Dashboard.getSlider4(), m_Dashboard.getSlider5());
+      m_MotorNEO.setPID(m_Dashboard.getSlider3(), m_Dashboard.getSlider4(), m_Dashboard.getSlider5());
+      // m_MotorNEO.setMaxMotionVar(m_Dashboard.getSlider3(), m_Dashboard.getSlider4(), m_Dashboard.getSlider5());
     }
     
     m_MotorCim.setMotorCim(m_Dashboard.getSlider1());
 
-    // m_MotorNEO.setSpeed(m_Dashboard.getText1());
+    m_MotorNEO.setSpeed(m_Dashboard.getSlider2());
     // m_MotorNEO.setPosition(m_Dashboard.getSlider2());
-    m_MotorNEO.setMaxMotion(m_Dashboard.getSlider2());
+    // m_MotorNEO.setMaxMotion(m_Dashboard.getSlider2());
+    // m_MotorNEO.setRPM(m_Dashboard.getSlider2());
 
     lastkP = m_Dashboard.getSlider3();
     lastkI = m_Dashboard.getSlider4();
