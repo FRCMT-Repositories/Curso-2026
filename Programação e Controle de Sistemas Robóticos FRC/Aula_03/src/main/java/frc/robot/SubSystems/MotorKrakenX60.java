@@ -35,6 +35,8 @@ public class MotorKrakenX60 {
         // config.MotionMagic.MotionMagicAcceleration = 20;
         // config.MotionMagic.MotionMagicJerk = 100;
 
+        // KrakenX60.getConfigurator().apply(config);
+
         var slot0 = new Slot0Configs();
 
         slot0.kS = 0.1;

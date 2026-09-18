@@ -15,8 +15,8 @@ public class Robot extends TimedRobot {
   private Command m_autonomousCommand;
 
   private final RobotContainer m_robotContainer;
-  private final Dashboard m_Dashboard = new Dashboard();
 
+  private final Dashboard m_Dashboard = new Dashboard();
   private final MotorKrakenX60 m_KrakenX60 = new MotorKrakenX60();
 
   private final NetworkTable elastic = NetworkTableInstance.getDefault().getTable("Elastic");
@@ -31,17 +31,17 @@ public class Robot extends TimedRobot {
   public void robotPeriodic() {
     CommandScheduler.getInstance().run();
 
-    if(checkSum != m_Dashboard.getSlider3() + m_Dashboard.getSlider4() + m_Dashboard.getSlider5()){
+    if (checkSum != m_Dashboard.getSlider3() + m_Dashboard.getSlider4() + m_Dashboard.getSlider5()) {
       m_KrakenX60.configMotionMagic(m_Dashboard.getSlider3(), m_Dashboard.getSlider4(), m_Dashboard.getSlider5());
     }
 
     checkSum = m_Dashboard.getSlider3() + m_Dashboard.getSlider4() + m_Dashboard.getSlider5();
+
     // m_KrakenX60.setSpeed(m_Dashboard.getSlider1());
     // m_KrakenX60.setPosition(m_Dashboard.getSlider1());
     // m_KrakenX60.setMotionMagic(m_Dashboard.getSlider1());
     m_KrakenX60.setRPM(m_Dashboard.getSlider1());
-    
-    
+
     elastic.getEntry("Plots/Current").setDouble(m_KrakenX60.getCurrent());
     elastic.getEntry("Plots/Velocity").setDouble(m_KrakenX60.getVelocity() * 60);
     elastic.getEntry("Plots/Position").setDouble(m_KrakenX60.getPosition());
